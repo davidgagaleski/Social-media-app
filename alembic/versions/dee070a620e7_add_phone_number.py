@@ -1,9 +1,7 @@
 """add phone number
-
 Revision ID: dee070a620e7
 Revises: b34f1c98da1f
 Create Date: 2021-11-25 15:45:07.397193
-
 """
 from alembic import op
 import sqlalchemy as sa

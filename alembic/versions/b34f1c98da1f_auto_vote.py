@@ -1,9 +1,7 @@
 """auto-vote
-
 Revision ID: b34f1c98da1f
 Revises: 639ecda0ff9b
 Create Date: 2021-11-25 15:30:10.425186
-
 """
 from alembic import op
 import sqlalchemy as sa
@@ -25,7 +23,7 @@ def upgrade():
     sa.ForeignKeyConstraint(['user_id'], ['users.id'], ondelete='CASCADE'),
     sa.PrimaryKeyConstraint('user_id', 'post_id')
     )
-    op.add_column('posts', sa.Column('content', sa.String(), nullable=False))
+    #op.add_column('posts', sa.Column('content', sa.String(), nullable=False))
     # ### end Alembic commands ###
 
 

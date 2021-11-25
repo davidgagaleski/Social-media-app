@@ -1,9 +1,7 @@
 """create posts table
-
 Revision ID: 4e35868546a2
 Revises: 
 Create Date: 2021-11-25 12:39:07.153565
-
 """
 from alembic import op
 import sqlalchemy as sa

@@ -1,9 +1,7 @@
 """add content column to posts table
-
 Revision ID: ef5405945fe5
 Revises: 4e35868546a2
 Create Date: 2021-11-25 12:45:29.510942
-
 """
 from alembic import op
 import sqlalchemy as sa

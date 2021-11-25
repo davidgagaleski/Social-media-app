@@ -1,9 +1,7 @@
 """add last few columns to posts table
-
 Revision ID: 639ecda0ff9b
 Revises: 9369d144d911
 Create Date: 2021-11-25 15:19:18.038955
-
 """
 from alembic import op
 import sqlalchemy as sa
