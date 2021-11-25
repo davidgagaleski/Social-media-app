@@ -2,9 +2,6 @@ from typing import Optional
 from pydantic import BaseModel,EmailStr
 from datetime import date, datetime
 
-from pydantic.types import conint
-
-from app.database import Base
 
 class PostBase(BaseModel):
     title: str
