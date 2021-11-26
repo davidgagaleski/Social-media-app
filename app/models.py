@@ -6,6 +6,7 @@ from sqlalchemy.sql.sqltypes import TIMESTAMP, Integer,String, Boolean
 from sqlalchemy.sql.visitors import TraversibleType
 from .database import Base
 
+
 class Post(Base):
     __tablename__="posts"
     id = Column(Integer, primary_key=True, nullable=False)
